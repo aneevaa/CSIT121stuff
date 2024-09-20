@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(148, 140, 146);
+    
+}
+p {
+    color: purple;
+     font-size: 18px
+}
+#special {
+    background-color:aquamarine
+}
+article {
+    border: 2px solid #ccc;
+    width: 500px;
+}
+h1 {
+    
+    color: rgb(8, 0, 0);
+  }
+  
+  h2 {
+    
+    color: rgb(121, 56, 56);
+  }
+  
+  p {
+    
+    color: rgb(124, 33, 33);
+  }
+  
