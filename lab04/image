@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Picture of Kylie Jenner</title>
+    </head>
+    <body>
+        <header>
+            <h1>Image 1: JPG</h1>
+            <nav>
+                <ul>
+                    <li><a href="image1.html">Image 1 </a></li>
+                    <li><a href="image2.html">Image 2</a></li>
+                    <li><a href="image3.html">Image 2</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <img src="images/image1.jpeg" alt="Example of JPG image">
+            <p><strong>File type:</strong> JPG</p>
+                <p><strong>description:</strong>I choose this image because I have always liked Kylie Jenner. I like her makeup and her skincare. The show KHWK I have watched since she was a child. </p>
+                    <p><strong>Source:</strong> <a href="https://www.gettyimages.com/photos/kylie-jenner-red-carpet">Source</a></p>
+        </main>
+        <footer>
+            <p>&copy; 2024 Aneeva Shrestha</p>
+        </footer>
+    </body>
+</html>
