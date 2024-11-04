@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="tierlist.html">Tier List</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Full name" required>
+            </div>
+
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="yourname@example.com" required>
+            </div>
+
+            <div>
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" maxlength="1600" placeholder="Please, Have your feedback here. Thank you!"></textarea>
+            </div>
+
+            <div>
+                <label for="favorite-candy">Favorite Candy:</label>
+                <select id="favorite-candy" name="favorite-candy">
+                    <option value="chocolate">Chocolate</option>
+                    <option value="gummies">Gummies</option>
+                    <option value="caramel">Caramel</option>
+                    <option value="lollipop">Lollipop</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Do you prefer sweet or sour?</label>
+                <input type="radio" id="sweet" name="preference" value="sweet">
+                <label for="sweet">Sweet</label>
+                <input type="radio" id="sour" name="preference" value="sour">
+                <label for="sour">Sour</label>
+            </div>
+
+            <div>
+                <label for="rating">How would you rate this tier list?</label>
+                <input type="range" id="rating" name="rating" min="1" max="5">
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
