@@ -34,7 +34,7 @@ th, td {
     padding: 10px;
     border: 1px solid #333; 
     text-align: center;
-    width: 16.66%; 
+    width: 10px ; 
 }
 
 table img {
@@ -55,12 +55,4 @@ label {
     display: block;
     margin-top: 10px;
     font-weight: bold;
-}
-
-input, textarea, select {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
 }
