@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>GIF Image</title>
+</head>
+<body>
+    <header>
+        <h1>Image 3: GIF</h1>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="image.html">JPG Image</a>
+                <a href="image2.html">PNG Image</a>
+                <a href="image3.html">Animation</a>
+              </div>
+    </header>
+    <span style="cursor:pointer" onclick="openNav()">&#9776; Home</span>
+    <main>
+        <img src="images/image3.gif" alt="Example of GIF image">
+        <p><strong>File Type:</strong> GIF</p>
+        <p><strong>Description:</strong> This is a animated image of Kylie Jenner. </p>
+        <p><strong>Source:</strong> <a href="https://giphy.com/explore/kylie-jenner-lips" target="_blank">Source</a></p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Aneeva Shrestha</p>
+    </footer>
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Picture of Kylie Jenner</title>
+    </head>
+    <body>
+        <header>
+            <h1>Image 1: JPG</h1>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                  <a href="image.html">JPG Image</a>
+                  <a href="image2.html">PNG Image</a>
+                  <a href="image3.html">Animation</a>
+                </div>
+        </header>
+        <span style="cursor:pointer" onclick="openNav()">&#9776; Home</span>
+        <main>
+            <img src="images/image1.jpeg" alt="Example of JPG image">
+            <p><strong>File type:</strong> JPG</p>
+                <p><strong>description:</strong>I choose this image because I have always liked Kylie Jenner. I like her makeup and her skincare. The show KHWK I have watched since she was a child.Over the years, she has built a massive social media following and leveraged her fame to launch her successful cosmetics brand, Kylie Cosmetics, in 2015.
+
+                </p>
+                    <p><strong>Source:</strong> <a href="https://www.gettyimages.com/photos/kylie-jenner-red-carpet">Source</a></p>
+        </main>
+        <footer>
+            <p>&copy; 2024 Aneeva Shrestha</p>
+        </footer>
+        <script>
+            function openNav() {
+              document.getElementById("myNav").style.width = "100%";
+            }
+            
+            function closeNav() {
+              document.getElementById("myNav").style.width = "0%";
+            }
+            </script>
+    </body>
+</html>
