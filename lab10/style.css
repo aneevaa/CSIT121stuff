@@ -1,0 +1,39 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding:0;
+    color:rgb(116, 63, 82)
+}
+
+header {
+    background:fixed;
+    color:purple;
+    padding:1em;
+    text-align: center;
+}
+
+header nav ul {
+    font-style: italic;
+    padding: 0%;
+}
+
+header nav ul li {
+    display:inline;
+    margin:auto;
+}
+
+header nav ul li a {
+color:blue;
+}
+
+main {
+    padding: 1em;
+}
+
+footer {
+    text-align: center;
+    background:fixed;
+    padding: 1em;
+    margin-top: 2em;
+}
